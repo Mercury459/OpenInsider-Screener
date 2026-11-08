@@ -1,0 +1,445 @@
+sic1,sector_name,sic2,subsector_name,sic3,industry_name,sicl,sich
+1,Agriculture,1,Crops,100,Crops,100,199
+1,Agriculture,2,Livestock & Animal Specialties,200,Livestock & Animal Specialties,200,699
+1,Agriculture,7,Agricultural Services,700,Agricultural Services,700,799
+1,Agriculture,8,Forestry,800,Forestry,800,899
+1,Agriculture,9,"Fishing, Hunting, & Trapping",900,"Fishing, Hunting & Trapping",900,999
+10,Basic Materials,10,Metal Mining,1000,Metal Mining,1000,1039
+10,Basic Materials,10,Metal Mining,1040,Gold & Silver Ores,1040,1089
+10,Basic Materials,10,Metal Mining,1090,Miscellaneous Metal Ores,1090,1219
+10,Basic Materials,12,Coal Mining,1220,Bituminous Coal & Lignite Mining,1220,1220
+10,Basic Materials,12,Coal Mining,1221,Bituminous Coal & Lignite Surface Mining,1221,1310
+10,Basic Materials,13,Oil & Gas Extraction,1311,Crude Petroleum & Natural Gas,1311,1380
+10,Basic Materials,13,Oil & Gas Extraction,1381,Drilling Oil & Gas Wells,1381,1381
+10,Basic Materials,13,Oil & Gas Extraction,1382,Oil & Gas Field Exploration Services,1382,1388
+10,Basic Materials,13,Oil & Gas Extraction,1389,Oil & Gas Field Services,1389,1399
+10,Basic Materials,14,Mining Nonmetallic Minerals,1400,Mining & Quarrying of Nonmetallic Minerals,1400,1519
+15,Construction,15,General Contractors & Builders,1520,Residential Bldg Contractors,1520,1530
+15,Construction,15,General Contractors & Builders,1531,Operative Builders,1531,1539
+15,Construction,15,General Contractors & Builders,1540,Nonresidential Bldg Contractors,1540,1599
+15,Construction,16,Heavy Construction,1600,Heavy Construction Non-Bldg Contractors,1600,1622
+15,Construction,16,Heavy Construction,1623,"Water, Sewer, Pipeline, Comm & Power Line Construction",1623,1699
+15,Construction,17,Special Trade Contractors,1700,Special Trade Contractors,1700,1730
+15,Construction,17,Special Trade Contractors,1731,Electrical Work,1731,1999
+20,Manufactured Goods,20,Food,2000,Food & Kindred Products,2000,2010
+20,Manufactured Goods,20,Food,2011,Meat Packing Plants,2011,2012
+20,Manufactured Goods,20,Food,2013,Sausages & Other Prepared Meat Products,2013,2014
+20,Manufactured Goods,20,Food,2015,Poultry Slaughtering & Processing,2015,2019
+20,Manufactured Goods,20,Food,2020,Dairy Products,2020,2023
+20,Manufactured Goods,20,Food,2024,Ice Cream & Frozen Desserts,2024,2029
+20,Manufactured Goods,20,Food,2030,"Canned, Frozen & Preservd Fruit, Veg & Food Specialties",2030,2032
+20,Manufactured Goods,20,Food,2033,"Canned, Fruits, Veg, Preserves, Jams & Jellies",2033,2039
+20,Manufactured Goods,20,Food,2040,Grain Mill Products,2040,2049
+20,Manufactured Goods,20,Food,2050,Bakery Products,2050,2051
+20,Manufactured Goods,20,Food,2052,Cookies & Crackers,2052,2059
+20,Manufactured Goods,20,Food,2060,Sugar & Confectionery Products,2060,2069
+20,Manufactured Goods,20,Food,2070,Fats & Oils,2070,2079
+20,Manufactured Goods,20,Food,2080,Beverages,2080,2081
+20,Manufactured Goods,20,Food,2082,Malt Beverages,2082,2085
+20,Manufactured Goods,20,Food,2086,Bottled & Canned Soft Drinks & Carbonated Waters,2086,2089
+20,Manufactured Goods,20,Food,2090,Miscellaneous Food Preparations & Kindred Products,2090,2091
+20,Manufactured Goods,20,Food,2092,Prepared Fresh or Frozen Fish & Seafoods,2092,2099
+20,Manufactured Goods,21,Tobacco,2100,Tobacco Products,2100,2110
+20,Manufactured Goods,21,Tobacco,2111,Cigarettes,2111,2199
+20,Manufactured Goods,22,Textile Mill Products,2200,Textile Mill Products,2200,2210
+20,Manufactured Goods,22,Textile Mill Products,2211,"Broadwoven Fabric Mills, Cotton",2211,2220
+20,Manufactured Goods,22,Textile Mill Products,2221,"Broadwoven Fabric Mills, Man Made Fiber & Silk",2221,2249
+20,Manufactured Goods,22,Textile Mill Products,2250,Knitting Mills,2250,2252
+20,Manufactured Goods,22,Textile Mill Products,2253,Knit Outerwear Mills,2253,2272
+20,Manufactured Goods,22,Textile Mill Products,2273,Carpets & Rugs,2273,2299
+20,Manufactured Goods,23,Apparel,2300,Apparel & Other Finishd Prods of Fabrics & Similar Matl,2300,2319
+20,Manufactured Goods,23,Apparel,2320,"Men's & Boys' Furnishgs, Work Clothg, & Allied Garments",2320,2329
+20,Manufactured Goods,23,Apparel,2330,"Women's, Misses', & Juniors Outerwear",2330,2339
+20,Manufactured Goods,23,Apparel,2340,"Women's, Misses', Children's & Infants' Undergarments",2340,2389
+20,Manufactured Goods,23,Apparel,2390,Miscellaneous Fabricated Textile Products,2390,2399
+20,Manufactured Goods,24,Lumber,2400,Lumber & Wood Products (No Furniture),2400,2420
+20,Manufactured Goods,24,Lumber,2421,"Sawmills & Planting Mills, General",2421,2429
+20,Manufactured Goods,24,Lumber,2430,"Millwood, Veneer, Plywood, & Structural Wood Members",2430,2450
+20,Manufactured Goods,24,Lumber,2451,Mobile Homes,2451,2451
+20,Manufactured Goods,24,Lumber,2452,Prefabricated Wood Bldgs & Components,2452,2509
+20,Manufactured Goods,25,Furniture,2510,Household Furniture,2510,2510
+20,Manufactured Goods,25,Furniture,2511,"Wood Household Furniture, (No Upholstered)",2511,2519
+20,Manufactured Goods,25,Furniture,2520,Office Furniture,2520,2521
+20,Manufactured Goods,25,Furniture,2522,Office Furniture (No Wood),2522,2530
+20,Manufactured Goods,25,Furniture,2531,Public Bldg & Related Furniture,2531,2539
+20,Manufactured Goods,25,Furniture,2540,"Partitions, Shelvg, Lockers, & Office & Store Fixtures",2540,2589
+20,Manufactured Goods,25,Furniture,2590,Miscellaneous Furniture & Fixtures,2590,2599
+20,Manufactured Goods,26,Paper,2600,Papers & Allied Products,2600,2610
+20,Manufactured Goods,26,Paper,2611,Pulp Mills,2611,2620
+20,Manufactured Goods,26,Paper,2621,Paper Mills,2621,2630
+20,Manufactured Goods,26,Paper,2631,Paperboard Mills,2631,2649
+20,Manufactured Goods,26,Paper,2650,Paperboard Containers & Boxes,2650,2669
+20,Manufactured Goods,26,Paper,2670,Converted Paper & Paperboard Prods (No Contaners/Boxes),2670,2672
+20,Manufactured Goods,26,Paper,2673,"Plastics, Foil & Coated Paper Bags",2673,2710
+20,Manufactured Goods,27,Printing & Publishing,2711,Newspapers: Publishing or Publishing & Printing,2711,2720
+20,Manufactured Goods,27,Printing & Publishing,2721,Periodicals: Publishing or Publishing & Printing,2721,2730
+20,Manufactured Goods,27,Printing & Publishing,2731,Books: Publishing or Publishing & Printing,2731,2731
+20,Manufactured Goods,27,Printing & Publishing,2732,Book Printing,2732,2740
+20,Manufactured Goods,27,Printing & Publishing,2741,Miscellaneous Publishing,2741,2749
+20,Manufactured Goods,27,Printing & Publishing,2750,Commercial Printing,2750,2760
+20,Manufactured Goods,27,Printing & Publishing,2761,Manifold Business Forms,2761,2770
+20,Manufactured Goods,27,Printing & Publishing,2771,Greeting Cards,2771,2779
+20,Manufactured Goods,27,Printing & Publishing,2780,"Blankbooks, Looseleaf Binders & Bookbindg & Relatd Work",2780,2789
+20,Manufactured Goods,27,Printing & Publishing,2790,Service Industries For The Printing Trade,2790,2799
+20,Manufactured Goods,28,Chemicals,2800,Chemicals & Allied Products,2800,2809
+20,Manufactured Goods,28,Chemicals,2810,Industrial Inorganic Chemicals,2810,2819
+20,Manufactured Goods,28,Chemicals,2820,"Plastic Material, Synth Resin/Rubber, Cellulos (No Glass)",2820,2820
+20,Manufactured Goods,28,Chemicals,2821,"Plastic Materials, Synth Resins & Nonvulcan Elastomers",2821,2832
+20,Manufactured Goods,28,Chemicals,2833,Medicinal Chemicals & Botanical Products,2833,2833
+20,Manufactured Goods,28,Chemicals,2834,Pharmaceutical Preparations,2834,2834
+20,Manufactured Goods,28,Chemicals,2835,In Vitro & In Vivo Diagnostic Substances,2835,2835
+20,Manufactured Goods,28,Chemicals,2836,"Biological Products, (No Diagnostic Substances)",2836,2839
+20,Manufactured Goods,28,Chemicals,2840,"Soap, Detergents, Cleaning, Perfumes, Cosmetics",2840,2841
+20,Manufactured Goods,28,Chemicals,2842,"Specialty Cleaning, Polishing & Sanitation Preparations",2842,2843
+20,Manufactured Goods,28,Chemicals,2844,"Perfumes, Cosmetics & Other Toilet Preparations",2844,2850
+20,Manufactured Goods,28,Chemicals,2851,"Paints, Varnishes, Lacquers, Enamels",2851,2859
+20,Manufactured Goods,28,Chemicals,2860,Industrial Organic Chemicals,2860,2869
+20,Manufactured Goods,28,Chemicals,2870,Agricultural Chemicals,2870,2889
+20,Manufactured Goods,28,Chemicals,2890,Miscellaneous Chemical Products,2890,2890
+20,Manufactured Goods,28,Chemicals,2891,Adhesives & Sealants,2891,2910
+20,Manufactured Goods,29,Petroleum Refining,2911,Petroleum Refining,2911,2949
+20,Manufactured Goods,29,Petroleum Refining,2950,Asphalt Paving & Roofing Materials,2950,2989
+20,Manufactured Goods,29,Petroleum Refining,2990,Miscellaneous Products of Petroleum & Coal,2990,3010
+20,Manufactured Goods,30,Rubber & Plastic,3011,Tires & Inner Tubes,3011,3020
+20,Manufactured Goods,30,Rubber & Plastic,3021,Rubber & Plastics Footwear,3021,3049
+20,Manufactured Goods,30,Rubber & Plastic,3050,"Gaskets, Packg & Sealg Devices & Rubber & Plastics Hose",3050,3059
+20,Manufactured Goods,30,Rubber & Plastic,3060,Fabricated Rubber Products,3060,3079
+20,Manufactured Goods,30,Rubber & Plastic,3080,Miscellaneous Plastics Products,3080,3080
+20,Manufactured Goods,30,Rubber & Plastic,3081,Unsupported Plastics Film & Sheet,3081,3085
+20,Manufactured Goods,30,Rubber & Plastic,3086,Plastics Foam Products,3086,3088
+20,Manufactured Goods,30,Rubber & Plastic,3089,Plastics Products,3089,3099
+20,Manufactured Goods,31,Leather,3100,Leather & Leather Products,3100,3139
+20,Manufactured Goods,31,Leather,3140,"Footwear, (No Rubber)",3140,3210
+20,Manufactured Goods,32,"Stone, Clay, Glass, & Concrete",3211,Flat Glass,3211,3219
+20,Manufactured Goods,32,"Stone, Clay, Glass, & Concrete",3220,"Glass & Glassware, Pressed or Blown",3220,3220
+20,Manufactured Goods,32,"Stone, Clay, Glass, & Concrete",3221,Glass Containers,3221,3230
+20,Manufactured Goods,32,"Stone, Clay, Glass, & Concrete",3231,"Glass Products, Made of Purchased Glass",3231,3240
+20,Manufactured Goods,32,"Stone, Clay, Glass, & Concrete",3241,"Cement, Hydraulic",3241,3249
+20,Manufactured Goods,32,"Stone, Clay, Glass, & Concrete",3250,Structural Clay Products,3250,3259
+20,Manufactured Goods,32,"Stone, Clay, Glass, & Concrete",3260,Pottery & Related Products,3260,3269
+20,Manufactured Goods,32,"Stone, Clay, Glass, & Concrete",3270,"Concrete, Gypsum & Plaster Products",3270,3271
+20,Manufactured Goods,32,"Stone, Clay, Glass, & Concrete",3272,"Concrete Products, Except Block & Brick",3272,3280
+20,Manufactured Goods,32,"Stone, Clay, Glass, & Concrete",3281,Cut Stone & Stone Products,3281,3289
+20,Manufactured Goods,32,"Stone, Clay, Glass, & Concrete",3290,"Abrasive, Asbestos & Misc Nonmetallic Mineral Prods",3290,3309
+20,Manufactured Goods,33,Primary Metal,3310,"Steel Works, Blast Furnaces & Rolling & Finishing Mills",3310,3311
+20,Manufactured Goods,33,Primary Metal,3312,"Steel Works, Blast Furnaces & Rolling Mills (Coke Ovens)",3312,3316
+20,Manufactured Goods,33,Primary Metal,3317,Steel Pipe & Tubes,3317,3319
+20,Manufactured Goods,33,Primary Metal,3320,Iron & Steel Foundries,3320,3329
+20,Manufactured Goods,33,Primary Metal,3330,Primary Smelting & Refining of Nonferrous Metals,3330,3333
+20,Manufactured Goods,33,Primary Metal,3334,Primary Production of Aluminum,3334,3340
+20,Manufactured Goods,33,Primary Metal,3341,Secondary Smelting & Refining of Nonferrous Metals,3341,3349
+20,Manufactured Goods,33,Primary Metal,3350,Rolling Drawing & Extruding of Nonferrous Metals,3350,3356
+20,Manufactured Goods,33,Primary Metal,3357,Drawing & Insulating of Nonferrous Wire,3357,3359
+20,Manufactured Goods,33,Primary Metal,3360,Nonferrous Foundries (Castings),3360,3389
+20,Manufactured Goods,33,Primary Metal,3390,Miscellaneous Primary Metal Products,3390,3410
+20,Manufactured Goods,34,Fabricated Metal Products,3411,Metal Cans,3411,3411
+20,Manufactured Goods,34,Fabricated Metal Products,3412,"Metal Shipping Barrels, Drums, Kegs & Pails",3412,3419
+20,Manufactured Goods,34,Fabricated Metal Products,3420,"Cutlery, Handtools & General Hardware",3420,3429
+20,Manufactured Goods,34,Fabricated Metal Products,3430,"Hearing Equip, Except Elec & Warm Air; & Plumbing Fixtures",3430,3432
+20,Manufactured Goods,34,Fabricated Metal Products,3433,"Heating Equipment, Except Electric & Warm Air Furnaces",3433,3439
+20,Manufactured Goods,34,Fabricated Metal Products,3440,Fabricated Structural Metal Products,3440,3441
+20,Manufactured Goods,34,Fabricated Metal Products,3442,"Metal Doors, Sash, Frames, Moldings & Trim",3442,3442
+20,Manufactured Goods,34,Fabricated Metal Products,3443,Fabricated Plate Work (Boiler Shops),3443,3443
+20,Manufactured Goods,34,Fabricated Metal Products,3444,Sheet Metal Work,3444,3447
+20,Manufactured Goods,34,Fabricated Metal Products,3448,Prefabricated Metal Buildings & Components,3448,3450
+20,Manufactured Goods,34,Fabricated Metal Products,3451,Screw Machine Products,3451,3451
+20,Manufactured Goods,34,Fabricated Metal Products,3452,"Bolts, Nuts, Screws, Rivets & Washers",3452,3459
+20,Manufactured Goods,34,Fabricated Metal Products,3460,Metal Forgings & Stampings,3460,3469
+20,Manufactured Goods,34,Fabricated Metal Products,3470,"Coating, Engraving & Allied Services",3470,3479
+20,Manufactured Goods,34,Fabricated Metal Products,3480,"Ordnance & Accessories, (No Vehicles/Guided Missiles)",3480,3489
+20,Manufactured Goods,34,Fabricated Metal Products,3490,Miscellaneous Fabricated Metal Products,3490,3509
+20,Manufactured Goods,35,Ind Machinery & Computers,3510,Engines & Turbines,3510,3522
+20,Manufactured Goods,35,Ind Machinery & Computers,3523,Farm Machinery & Equipment,3523,3523
+20,Manufactured Goods,35,Ind Machinery & Computers,3524,Lawn & Garden Tractors & Home Lawn & Gardens Equip,3524,3529
+20,Manufactured Goods,35,Ind Machinery & Computers,3530,"Construction, Mining & Materials Handling Machinery & Equip",3530,3530
+20,Manufactured Goods,35,Ind Machinery & Computers,3531,Construction Machinery & Equip,3531,3531
+20,Manufactured Goods,35,Ind Machinery & Computers,3532,Mining Machinery & Equip (No Oil & Gas Field Mach & Equip),3532,3532
+20,Manufactured Goods,35,Ind Machinery & Computers,3533,Oil & Gas Field Machinery & Equipment,3533,3536
+20,Manufactured Goods,35,Ind Machinery & Computers,3537,"Industrial Trucks, Tractors, Trailors & Stackers",3537,3539
+20,Manufactured Goods,35,Ind Machinery & Computers,3540,Metalworkg Machinery & Equipment,3540,3540
+20,Manufactured Goods,35,Ind Machinery & Computers,3541,"Machine Tools, Metal Cutting Types",3541,3549
+20,Manufactured Goods,35,Ind Machinery & Computers,3550,Special Industry Machinery (No Metalworking Machinery),3550,3554
+20,Manufactured Goods,35,Ind Machinery & Computers,3555,Printing Trades Machinery & Equipment,3555,3558
+20,Manufactured Goods,35,Ind Machinery & Computers,3559,Special Industry Machinery,3559,3559
+20,Manufactured Goods,35,Ind Machinery & Computers,3560,General Industrial Machinery & Equipment,3560,3560
+20,Manufactured Goods,35,Ind Machinery & Computers,3561,Pumps & Pumping Equipment,3561,3561
+20,Manufactured Goods,35,Ind Machinery & Computers,3562,Ball & Roller Bearings,3562,3563
+20,Manufactured Goods,35,Ind Machinery & Computers,3564,Industrial & Commercial Fans & Blowers & Air Purifing Equip,3564,3566
+20,Manufactured Goods,35,Ind Machinery & Computers,3567,Industrial Process Furnaces & Ovens,3567,3568
+20,Manufactured Goods,35,Ind Machinery & Computers,3569,General Industrial Machinery & Equipment,3569,3569
+20,Manufactured Goods,35,Ind Machinery & Computers,3570,Computer & Office Equipment,3570,3570
+20,Manufactured Goods,35,Ind Machinery & Computers,3571,Electronic Computers,3571,3571
+20,Manufactured Goods,35,Ind Machinery & Computers,3572,Computer Storage Devices,3572,3574
+20,Manufactured Goods,35,Ind Machinery & Computers,3575,Computer Terminals,3575,3575
+20,Manufactured Goods,35,Ind Machinery & Computers,3576,Computer Communications Equipment,3576,3576
+20,Manufactured Goods,35,Ind Machinery & Computers,3577,Computer Peripheral Equipment,3577,3577
+20,Manufactured Goods,35,Ind Machinery & Computers,3578,Calculating & Accounting Machines (No Electronic Computers),3578,3578
+20,Manufactured Goods,35,Ind Machinery & Computers,3579,Office Machines,3579,3579
+20,Manufactured Goods,35,Ind Machinery & Computers,3580,Refrigeration & Service Industry Machinery,3580,3584
+20,Manufactured Goods,35,Ind Machinery & Computers,3585,Air-Cond & Warm Air Heatg Equip & Comm & Indl Refrig Equip,3585,3589
+20,Manufactured Goods,35,Ind Machinery & Computers,3590,Misc Industrial & Commercial Machinery & Equipment,3590,3599
+20,Manufactured Goods,36,Electronics,3600,Electronic & Other Electrical Equipment (No Computer Equip),3600,3611
+20,Manufactured Goods,36,Electronics,3612,"Power, Distribution & Specialty Transformers",3612,3612
+20,Manufactured Goods,36,Electronics,3613,Switchgear & Switchboard Apparatus,3613,3619
+20,Manufactured Goods,36,Electronics,3620,Electrical Industrial Apparatus,3620,3620
+20,Manufactured Goods,36,Electronics,3621,Motors & Generators,3621,3629
+20,Manufactured Goods,36,Electronics,3630,Household Appliances,3630,3633
+20,Manufactured Goods,36,Electronics,3634,Electric Housewares & Fans,3634,3639
+20,Manufactured Goods,36,Electronics,3640,Electric Lighting & Wiring Equipment,3640,3650
+20,Manufactured Goods,36,Electronics,3651,Household Audio & Video Equipment,3651,3651
+20,Manufactured Goods,36,Electronics,3652,Phonograph Records & Prerecorded Audio Tapes & Disks,3652,3660
+20,Manufactured Goods,36,Electronics,3661,Telephone & Telegraph Apparatus,3661,3662
+20,Manufactured Goods,36,Electronics,3663,Radio & Tv Broadcasting & Communications Equipment,3663,3668
+20,Manufactured Goods,36,Electronics,3669,Communications Equipment,3669,3669
+20,Manufactured Goods,36,Electronics,3670,Electronic Components & Accessories,3670,3671
+20,Manufactured Goods,36,Electronics,3672,Printed Circuit Boards,3672,3673
+20,Manufactured Goods,36,Electronics,3674,Semiconductors & Related Devices,3674,3676
+20,Manufactured Goods,36,Electronics,3677,"Electronic Coils, Transformers & Other Inductors",3677,3677
+20,Manufactured Goods,36,Electronics,3678,Electronic Connectors,3678,3678
+20,Manufactured Goods,36,Electronics,3679,Electronic Components,3679,3689
+20,Manufactured Goods,36,Electronics,3690,"Miscellaneous Electrical Machinery, Equipment & Supplies",3690,3694
+20,Manufactured Goods,36,Electronics,3695,Magnetic & Optical Recording Media,3695,3710
+20,Manufactured Goods,37,Transportation Equipment,3711,Motor Vehicles & Passenger Car Bodies,3711,3712
+20,Manufactured Goods,37,Transportation Equipment,3713,Truck & Bus Bodies,3713,3713
+20,Manufactured Goods,37,Transportation Equipment,3714,Motor Vehicle Parts & Accessories,3714,3714
+20,Manufactured Goods,37,Transportation Equipment,3715,Truck Trailers,3715,3715
+20,Manufactured Goods,37,Transportation Equipment,3716,Motor Homes,3716,3719
+20,Manufactured Goods,37,Transportation Equipment,3720,Aircraft & Parts,3720,3720
+20,Manufactured Goods,37,Transportation Equipment,3721,Aircraft,3721,3723
+20,Manufactured Goods,37,Transportation Equipment,3724,Aircraft Engines & Engine Parts,3724,3727
+20,Manufactured Goods,37,Transportation Equipment,3728,Aircraft Parts & Auxiliary Equipment,3728,3729
+20,Manufactured Goods,37,Transportation Equipment,3730,Ship & Boat Building & Repairing,3730,3742
+20,Manufactured Goods,37,Transportation Equipment,3743,Railroad Equipment,3743,3750
+20,Manufactured Goods,37,Transportation Equipment,3751,"Motorcycles, Bicycles & Parts",3751,3759
+20,Manufactured Goods,37,Transportation Equipment,3760,Guided Missiles & Space Vehicles & Parts,3760,3789
+20,Manufactured Goods,37,Transportation Equipment,3790,Miscellaneous Transportation Equipment,3790,3811
+20,Manufactured Goods,38,Specialty Instruments,3812,"Search, Detection, Navagation, Guidance, Aeronautical Sys",3812,3820
+20,Manufactured Goods,38,Specialty Instruments,3821,Laboratory Apparatus & Furniture,3821,3821
+20,Manufactured Goods,38,Specialty Instruments,3822,Auto Controls For Regulating Residential & Comml Environments,3822,3822
+20,Manufactured Goods,38,Specialty Instruments,3823,"Industrial Instruments For Measurement, Display, & Control",3823,3823
+20,Manufactured Goods,38,Specialty Instruments,3824,Totalizing Fluid Meters & Counting Devices,3824,3824
+20,Manufactured Goods,38,Specialty Instruments,3825,Instruments For Meas & Testing of Electricity & Elec Signals,3825,3825
+20,Manufactured Goods,38,Specialty Instruments,3826,Laboratory Analytical Instruments,3826,3826
+20,Manufactured Goods,38,Specialty Instruments,3827,Optical Instruments & Lenses,3827,3828
+20,Manufactured Goods,38,Specialty Instruments,3829,Measuring & Controlling Devices,3829,3840
+20,Manufactured Goods,38,Specialty Instruments,3841,Surgical & Medical Instruments & Apparatus,3841,3841
+20,Manufactured Goods,38,Specialty Instruments,3842,"Orthopedic, Prosthetic & Surgical Appliances & Supplies",3842,3842
+20,Manufactured Goods,38,Specialty Instruments,3843,Dental Equipment & Supplies,3843,3843
+20,Manufactured Goods,38,Specialty Instruments,3844,X-Ray Apparatus & Tubes & Related Irradiation Apparatus,3844,3844
+20,Manufactured Goods,38,Specialty Instruments,3845,Electromedical & Electrotherapeutic Apparatus,3845,3850
+20,Manufactured Goods,38,Specialty Instruments,3851,Ophthalmic Goods,3851,3860
+20,Manufactured Goods,38,Specialty Instruments,3861,Photographic Equipment & Supplies,3861,3872
+20,Manufactured Goods,38,Specialty Instruments,3873,"Watches, Clocks, Clockwork Operated Devices/Parts",3873,3909
+20,Manufactured Goods,39,Miscellaneous Manufacturing,3910,"Jewelry, Silverware & Plated Ware",3910,3910
+20,Manufactured Goods,39,Miscellaneous Manufacturing,3911,"Jewelry, Precious Metal",3911,3930
+20,Manufactured Goods,39,Miscellaneous Manufacturing,3931,Musical Instruments,3931,3941
+20,Manufactured Goods,39,Miscellaneous Manufacturing,3942,Dolls & Stuffed Toys,3942,3943
+20,Manufactured Goods,39,Miscellaneous Manufacturing,3944,"Games, Toys & Children's Vehicles (No Dolls & Bicycles)",3944,3948
+20,Manufactured Goods,39,Miscellaneous Manufacturing,3949,Sporting & Athletic Goods,3949,3949
+20,Manufactured Goods,39,Miscellaneous Manufacturing,3950,"Pens, Pencils & Other Artists' Materials",3950,3959
+20,Manufactured Goods,39,Miscellaneous Manufacturing,3960,Costume Jewelry & Novelties,3960,3989
+20,Manufactured Goods,39,Miscellaneous Manufacturing,3990,Miscellaneous Manufacturing Industries,3990,4010
+40,Transportation & Utilities,40,Railroads,4011,"Railroads, Line-Haul Operating",4011,4012
+40,Transportation & Utilities,40,Railroads,4013,Railroad Switching & Terminal Establishments,4013,4099
+40,Transportation & Utilities,41,Passenger Road Transportation,4100,Local & Suburban Transit & Interurban Hwy Passenger Trans,4100,4209
+40,Transportation & Utilities,42,Road Freight Transportation,4210,Trucking & Courier Services (No Air),4210,4212
+40,Transportation & Utilities,42,Road Freight Transportation,4213,Trucking (No Local),4213,4219
+40,Transportation & Utilities,42,Road Freight Transportation,4220,Public Warehousing & Storage,4220,4230
+40,Transportation & Utilities,42,Road Freight Transportation,4231,Terminal Maintenance Facilities For Motor Freight Transport,4231,4399
+40,Transportation & Utilities,44,Water Transportation,4400,Water Transportation,4400,4411
+40,Transportation & Utilities,44,Water Transportation,4412,Deep Sea Foreign Transportation of Freight,4412,4511
+40,Transportation & Utilities,45,Air Transportation,4512,"Air Transportation, Scheduled",4512,4512
+40,Transportation & Utilities,45,Air Transportation,4513,Air Courier Services,4513,4521
+40,Transportation & Utilities,45,Air Transportation,4522,"Air Transportation, Nonscheduled",4522,4580
+40,Transportation & Utilities,45,Air Transportation,4581,"Airports, Flying Fields & Airport Terminal Services",4581,4609
+40,Transportation & Utilities,46,Pipelines,4610,Pipe Lines (No Natural Gas),4610,4699
+40,Transportation & Utilities,47,Transportation Services,4700,Transportation Services,4700,4730
+40,Transportation & Utilities,47,Transportation Services,4731,Arrangement of Transportation of Freight & Cargo,4731,4811
+40,Transportation & Utilities,48,Communications,4812,Radiotelephone Communications,4812,4812
+40,Transportation & Utilities,48,Communications,4813,Telephone Communications (No Radiotelephone),4813,4821
+40,Transportation & Utilities,48,Communications,4822,Telegraph & Other Message Communications,4822,4831
+40,Transportation & Utilities,48,Communications,4832,Radio Broadcasting Stations,4832,4832
+40,Transportation & Utilities,48,Communications,4833,Television Broadcasting Stations,4833,4840
+40,Transportation & Utilities,48,Communications,4841,Cable & Other Pay Television Services,4841,4898
+40,Transportation & Utilities,48,Communications,4899,Communications Services,4899,4899
+40,Transportation & Utilities,49,"Electric, Gas, & Sanitary Svcs",4900,"Electric, Gas & Sanitary Services",4900,4910
+40,Transportation & Utilities,49,"Electric, Gas, & Sanitary Svcs",4911,Electric Services,4911,4921
+40,Transportation & Utilities,49,"Electric, Gas, & Sanitary Svcs",4922,Natural Gas Transmission,4922,4922
+40,Transportation & Utilities,49,"Electric, Gas, & Sanitary Svcs",4923,Natural Gas Transmisison & Distribution,4923,4923
+40,Transportation & Utilities,49,"Electric, Gas, & Sanitary Svcs",4924,Natural Gas Distribution,4924,4930
+40,Transportation & Utilities,49,"Electric, Gas, & Sanitary Svcs",4931,Electric & Other Services Combined,4931,4931
+40,Transportation & Utilities,49,"Electric, Gas, & Sanitary Svcs",4932,Gas & Other Services Combined,4932,4940
+40,Transportation & Utilities,49,"Electric, Gas, & Sanitary Svcs",4941,Water Supply,4941,4949
+40,Transportation & Utilities,49,"Electric, Gas, & Sanitary Svcs",4950,Sanitary Services,4950,4952
+40,Transportation & Utilities,49,"Electric, Gas, & Sanitary Svcs",4953,Refuse Systems,4953,4954
+40,Transportation & Utilities,49,"Electric, Gas, & Sanitary Svcs",4955,Hazardous Waste Management,4955,4960
+40,Transportation & Utilities,49,"Electric, Gas, & Sanitary Svcs",4961,Steam & Air-Conditioning Supply,4961,4990
+40,Transportation & Utilities,49,"Electric, Gas, & Sanitary Svcs",4991,Cogeneration Services & Small Power Producers,4991,4999
+50,Wholesale Trade,50,Durable Goods,5000,Durable Goods,5000,5009
+50,Wholesale Trade,50,Durable Goods,5010,Motor Vehicles & Motor Vehicle Parts & Supplies,5010,5012
+50,Wholesale Trade,50,Durable Goods,5013,Motor Vehicle Supplies & New Parts,5013,5019
+50,Wholesale Trade,50,Durable Goods,5020,Furniture & Home Furnishings,5020,5029
+50,Wholesale Trade,50,Durable Goods,5030,Lumber & Other Construction Materials,5030,5030
+50,Wholesale Trade,50,Durable Goods,5031,"Lumber, Plywood, Millwork & Wood Panels",5031,5039
+50,Wholesale Trade,50,Durable Goods,5040,Professional & Commercial Equipment & Supplies,5040,5044
+50,Wholesale Trade,50,Durable Goods,5045,Computers & Peripheral Equipment & Software,5045,5046
+50,Wholesale Trade,50,Durable Goods,5047,"Medical, Dental & Hospital Equipment & Supplies",5047,5049
+50,Wholesale Trade,50,Durable Goods,5050,Metals & Minerals (No Petroleum),5050,5050
+50,Wholesale Trade,50,Durable Goods,5051,Metals Service Centers & Offices,5051,5062
+50,Wholesale Trade,50,Durable Goods,5063,"Electrical Apparatus & Equipment, Wiring Supplies",5063,5063
+50,Wholesale Trade,50,Durable Goods,5064,"Electrical Appliances, Tv & Radio Sets",5064,5064
+50,Wholesale Trade,50,Durable Goods,5065,Electronic Parts & Equipment,5065,5069
+50,Wholesale Trade,50,Durable Goods,5070,Hardware & Plumbing & Heating Equipment & Supplies,5070,5071
+50,Wholesale Trade,50,Durable Goods,5072,Hardware,5072,5079
+50,Wholesale Trade,50,Durable Goods,5080,"Machinery, Equipment & Supplies",5080,5081
+50,Wholesale Trade,50,Durable Goods,5082,Construction & Mining (No Petro) Machinery & Equip,5082,5083
+50,Wholesale Trade,50,Durable Goods,5084,Industrial Machinery & Equipment,5084,5089
+50,Wholesale Trade,50,Durable Goods,5090,Misc Durable Goods,5090,5093
+50,Wholesale Trade,50,Durable Goods,5094,"Jewelry, Watches, Precious Stones & Metals",5094,5098
+50,Wholesale Trade,50,Durable Goods,5099,Durable Goods,5099,5109
+50,Wholesale Trade,51,Nondurable Goods,5110,Paper & Paper Products,5110,5121
+50,Wholesale Trade,51,Nondurable Goods,5122,"Drugs, Proprietaries & Druggists' Sundries",5122,5129
+50,Wholesale Trade,51,Nondurable Goods,5130,"Apparel, Piece Goods & Notions",5130,5139
+50,Wholesale Trade,51,Nondurable Goods,5140,Groceries & Related Products,5140,5140
+50,Wholesale Trade,51,Nondurable Goods,5141,"Groceries, General Line",5141,5149
+50,Wholesale Trade,51,Nondurable Goods,5150,Farm Product Raw Materials,5150,5159
+50,Wholesale Trade,51,Nondurable Goods,5160,Chemicals & Allied Products,5160,5170
+50,Wholesale Trade,51,Nondurable Goods,5171,Petroleum Bulk Stations & Terminals,5171,5171
+50,Wholesale Trade,51,Nondurable Goods,5172,Petroleum & Petroleum Products (No Bulk Stations),5172,5179
+50,Wholesale Trade,51,Nondurable Goods,5180,"Beer, Wine & Distilled Alcoholic Beverages",5180,5189
+50,Wholesale Trade,51,Nondurable Goods,5190,Miscellaneous Nondurable Goods,5190,5199
+52,Retail Trade,52,Building Materials,5200,"Building Materials, Hardware, Garden Supply",5200,5210
+52,Retail Trade,52,Building Materials,5211,Lumber & Other Building Materials Dealers,5211,5270
+52,Retail Trade,52,Building Materials,5271,Mobile Home Dealers,5271,5310
+52,Retail Trade,53,General Merchandise,5311,Department Stores,5311,5330
+52,Retail Trade,53,General Merchandise,5331,Variety Stores,5331,5398
+52,Retail Trade,53,General Merchandise,5399,Misc General Merchandise Stores,5399,5399
+52,Retail Trade,54,Grocery,5400,Food Stores,5400,5410
+52,Retail Trade,54,Grocery,5411,Grocery Stores,5411,5411
+52,Retail Trade,54,Grocery,5412,Convenience Stores,5412,5499
+52,Retail Trade,55,Auto Dealers & Service Stations,5500,Auto Dealers & Gasoline Stations,5500,5530
+52,Retail Trade,55,Auto Dealers & Service Stations,5531,Auto & Home Supply Stores,5531,5599
+52,Retail Trade,56,Apparel & Accessory Stores,5600,Apparel & Accessory Stores,5600,5620
+52,Retail Trade,56,Apparel & Accessory Stores,5621,Women's Clothing Stores,5621,5650
+52,Retail Trade,56,Apparel & Accessory Stores,5651,Family Clothing Stores,5651,5660
+52,Retail Trade,56,Apparel & Accessory Stores,5661,Shoe Stores,5661,5699
+52,Retail Trade,57,Home Furniture,5700,"Home Furniture, Furnishings & Equipment Stores",5700,5711
+52,Retail Trade,57,Home Furniture,5712,Furniture Stores,5712,5730
+52,Retail Trade,57,Home Furniture,5731,"Radio, Tv & Consumer Electronics Stores",5731,5733
+52,Retail Trade,57,Home Furniture,5734,Computer & Computer Software Stores,5734,5734
+52,Retail Trade,57,Home Furniture,5735,Record & Prerecorded Tape Stores,5735,5809
+52,Retail Trade,58,Eating & Drinking Places,5810,Eating & Drinking Places,5810,5811
+52,Retail Trade,58,Eating & Drinking Places,5812,Eating Places,5812,5899
+52,Retail Trade,59,Miscellaneous Retail,5900,Miscellaneous Retail,5900,5911
+52,Retail Trade,59,Miscellaneous Retail,5912,Drug Stores & Proprietary Stores,5912,5939
+52,Retail Trade,59,Miscellaneous Retail,5940,Miscellaneous Shopping Goods Stores,5940,5943
+52,Retail Trade,59,Miscellaneous Retail,5944,Jewelry Stores,5944,5944
+52,Retail Trade,59,Miscellaneous Retail,5945,"Hobby, Toy & Game Shops",5945,5959
+52,Retail Trade,59,Miscellaneous Retail,5960,Nonstore Retailers,5960,5960
+52,Retail Trade,59,Miscellaneous Retail,5961,Catalog & Mail-Order Houses,5961,5989
+52,Retail Trade,59,Miscellaneous Retail,5990,Retail Stores,5990,6020
+60,Financial,60,Depository Institutions,6021,National Commercial Banks,6021,6021
+60,Financial,60,Depository Institutions,6022,State Commercial Banks,6022,6028
+60,Financial,60,Depository Institutions,6029,Commercial Banks,6029,6034
+60,Financial,60,Depository Institutions,6035,"Savings Institution, Federally Chartered",6035,6035
+60,Financial,60,Depository Institutions,6036,"Savings Institutions, Not Federally Chartered",6036,6098
+60,Financial,60,Depository Institutions,6099,Functions Related to Depository Banking,6099,6110
+60,Financial,61,Non-depository Credit Inst,6111,Federal & Federally-Sponsored Credit Agencies,6111,6140
+60,Financial,61,Non-depository Credit Inst,6141,Personal Credit Institutions,6141,6152
+60,Financial,61,Non-depository Credit Inst,6153,Short-Term Business Credit Institutions,6153,6158
+60,Financial,61,Non-depository Credit Inst,6159,Miscellaneous Business Credit Institution,6159,6161
+60,Financial,61,Non-depository Credit Inst,6162,Mortgage Bankers & Loan Correspondents,6162,6162
+60,Financial,61,Non-depository Credit Inst,6163,Loan Brokers,6163,6171
+60,Financial,61,Non-depository Credit Inst,6172,Finance Lessors,6172,6188
+60,Financial,61,Non-depository Credit Inst,6189,Asset-Backed Securities,6189,6198
+60,Financial,61,Non-depository Credit Inst,6199,Finance Services,6199,6199
+60,Financial,62,Security & Commodity Brokers,6200,"Security & Commodity Brokers, Dealers, Exchanges & Services",6200,6210
+60,Financial,62,Security & Commodity Brokers,6211,"Security Brokers, Dealers & Flotation Companies",6211,6220
+60,Financial,62,Security & Commodity Brokers,6221,Commodity Contracts Brokers & Dealers,6221,6281
+60,Financial,62,Security & Commodity Brokers,6282,Investment Advice,6282,6310
+60,Financial,63,Insurance Carriers,6311,Life Insurance,6311,6320
+60,Financial,63,Insurance Carriers,6321,Accident & Health Insurance,6321,6323
+60,Financial,63,Insurance Carriers,6324,Hospital & Medical Service Plans,6324,6330
+60,Financial,63,Insurance Carriers,6331,"Fire, Marine & Casualty Insurance",6331,6350
+60,Financial,63,Insurance Carriers,6351,Surety Insurance,6351,6360
+60,Financial,63,Insurance Carriers,6361,Title Insurance,6361,6398
+60,Financial,63,Insurance Carriers,6399,Insurance Carriers,6399,6410
+60,Financial,64,Insurance Agents,6411,"Insurance Agents, Brokers & Service",6411,6499
+60,Financial,65,Real Estate,6500,Real Estate,6500,6509
+60,Financial,65,Real Estate,6510,Real Estate Operators (No Developers) & Lessors,6510,6511
+60,Financial,65,Real Estate,6512,Operators of Nonresidential Buildings,6512,6512
+60,Financial,65,Real Estate,6513,Operators of Apartment Buildings,6513,6518
+60,Financial,65,Real Estate,6519,Lessors of Real Property,6519,6530
+60,Financial,65,Real Estate,6531,Real Estate Agents & Managers (For Others),6531,6531
+60,Financial,65,Real Estate,6532,Real Estate Dealers (For Their Own Account),6532,6551
+60,Financial,65,Real Estate,6552,Land Subdividers & Developers (No Cemeteries),6552,6769
+60,Financial,67,Holding & Investment Offices,6770,Blank Checks,6770,6791
+60,Financial,67,Holding & Investment Offices,6792,Oil Royalty Traders,6792,6793
+60,Financial,67,Holding & Investment Offices,6794,Patent Owners & Lessors,6794,6794
+60,Financial,67,Holding & Investment Offices,6795,Mineral Royalty Traders,6795,6797
+60,Financial,67,Holding & Investment Offices,6798,Real Estate Investment Trusts,6798,6798
+60,Financial,67,Holding & Investment Offices,6799,Investors,6799,6999
+70,Services,70,Hotels,7000,"Hotels, Rooming Houses, Camps & Other Lodging Places",7000,7010
+70,Services,70,Hotels,7011,Hotels & Motels,7011,7199
+70,Services,72,Personal Services,7200,Personal Services,7200,7309
+70,Services,73,Business Services,7310,Advertising,7310,7310
+70,Services,73,Business Services,7311,Advertising Agencies,7311,7319
+70,Services,73,Business Services,7320,"Consumer Credit Reporting, Collection Agencies",7320,7329
+70,Services,73,Business Services,7330,"Mailing, Reproduction, Commercial Art & Photography",7330,7330
+70,Services,73,Business Services,7331,Direct Mail Advertising Services,7331,7339
+70,Services,73,Business Services,7340,To Dwellings & Other Buildings,7340,7349
+70,Services,73,Business Services,7350,Miscellaneous Equipment Rental & Leasing,7350,7358
+70,Services,73,Business Services,7359,Equipment Rental & Leasing,7359,7360
+70,Services,73,Business Services,7361,Employment Agencies,7361,7362
+70,Services,73,Business Services,7363,Help Supply Services,7363,7369
+70,Services,73,Business Services,7370,"Computer Programming, Data Processing, Etc.",7370,7370
+70,Services,73,Business Services,7371,Computer Programming Services,7371,7371
+70,Services,73,Business Services,7372,Prepackaged Software,7372,7372
+70,Services,73,Business Services,7373,Computer Integrated Systems Design,7373,7373
+70,Services,73,Business Services,7374,Computer Processing & Data Preparation,7374,7376
+70,Services,73,Business Services,7377,Computer Rental & Leasing,7377,7379
+70,Services,73,Business Services,7380,Miscellaneous Business Services,7380,7380
+70,Services,73,Business Services,7381,"Detective, Guard & Armored Car Services",7381,7383
+70,Services,73,Business Services,7384,Photofinishing Laboratories,7384,7384
+70,Services,73,Business Services,7385,Telephone Interconnect Systems,7385,7388
+70,Services,73,Business Services,7389,Business Services,7389,7499
+70,Services,75,Automotive Repair,7500,"Automotive Repair, Services & Parking",7500,7509
+70,Services,75,Automotive Repair,7510,Auto Rental & Leasing (No Drivers),7510,7599
+70,Services,76,Miscellaneous Repair,7600,Miscellaneous Repair Services,7600,7811
+70,Services,78,Motion Pictures,7812,Motion Picture & Video Tape Production,7812,7818
+70,Services,78,Motion Pictures,7819,Allied to Motion Picture Production,7819,7821
+70,Services,78,Motion Pictures,7822,Motion Picture & Video Tape Distribution,7822,7828
+70,Services,78,Motion Pictures,7829,Allied to Motion Picture Distribution,7829,7829
+70,Services,78,Motion Pictures,7830,Motion Picture Theaters,7830,7840
+70,Services,78,Motion Pictures,7841,Video Tape Rental,7841,7899
+70,Services,79,Amusement & Rec Svcs,7900,Amusement & Recreation Services,7900,7947
+70,Services,79,Amusement & Rec Svcs,7948,"Racing, Including Track Operation",7948,7989
+70,Services,79,Amusement & Rec Svcs,7990,Miscellaneous Amusement & Recreation,7990,7996
+70,Services,79,Amusement & Rec Svcs,7997,Membership Sports & Recreation Clubs,7997,7999
+70,Services,80,Health Services,8000,Health Services,8000,8010
+70,Services,80,Health Services,8011,Offices & Clinics of Doctors of Medicine,8011,8049
+70,Services,80,Health Services,8050,Nursing & Personal Care Facilities,8050,8050
+70,Services,80,Health Services,8051,Skilled Nursing Care Facilities,8051,8059
+70,Services,80,Health Services,8060,Hospitals,8060,8061
+70,Services,80,Health Services,8062,General Medical & Surgical Hospitals,8062,8070
+70,Services,80,Health Services,8071,Medical Laboratories,8071,8081
+70,Services,80,Health Services,8082,Home Health Care Services,8082,8089
+70,Services,80,Health Services,8090,Misc Health & Allied Services,8090,8092
+70,Services,80,Health Services,8093,Specialty Outpatient Facilities,8093,8110
+70,Services,81,Legal Services,8111,Legal Services,8111,8199
+70,Services,82,Educational Services,8200,Educational Services,8200,8299
+70,Services,83,Social Services,8300,Social Services,8300,8350
+70,Services,83,Social Services,8351,Child Day Care Services,8351,8599
+70,Services,86,Membership Organizations,8600,Membership Organizations,8600,8699
+70,Services,87,"Engr, Acct, Rsrch, Mgmt Svcs",8700,"Engineering, Accounting, Research, Management",8700,8710
+70,Services,87,"Engr, Acct, Rsrch, Mgmt Svcs",8711,Engineering Services,8711,8730
+70,Services,87,"Engr, Acct, Rsrch, Mgmt Svcs",8731,Commercial Physical & Biological Research,8731,8733
+70,Services,87,"Engr, Acct, Rsrch, Mgmt Svcs",8734,Testing Laboratories,8734,8740
+70,Services,87,"Engr, Acct, Rsrch, Mgmt Svcs",8741,Management Services,8741,8741
+70,Services,87,"Engr, Acct, Rsrch, Mgmt Svcs",8742,Management Consulting Services,8742,8743
+70,Services,87,"Engr, Acct, Rsrch, Mgmt Svcs",8744,Facilities Support Management Services,8744,8879
+70,Services,88,Other,8880,American Depositary Receipts,8880,8887
+70,Services,88,Other,8888,Foreign Governments,8888,8899
+70,Services,89,Miscellaneous Services,8900,Services,8900,9720
+70,Services,97,Other,9721,International Affairs,9721,9994
+70,Services,99,Other,9995,Non-Operating Establishments,9995,9999
