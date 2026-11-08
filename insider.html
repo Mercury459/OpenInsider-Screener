@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>
+OpenInsider Screener
+</title>
+
+
+<style>
+
+body {
+    font-family: Arial;
+    margin: 30px;
+}
+
+
+.filter-box {
+
+    border:1px solid #ddd;
+    padding:20px;
+    width:500px;
+
+}
+
+
+table {
+
+    border-collapse:collapse;
+    width:100%;
+    margin-top:20px;
+
+}
+
+
+th,td {
+
+    border:1px solid #ccc;
+    padding:8px;
+
+}
+
+
+button {
+
+    margin-top:15px;
+    padding:10px 20px;
+
+}
+
+</style>
+
+
+</head>
+
+
+<body>
+
+
+<h1>
+OpenInsider Screener
+</h1>
+
+
+<div class="filter-box">
+
+
+<h3>Ticker</h3>
+
+<input id="ticker" placeholder="e.g. JEF, AAPL">
+
+
+<h3>Industry</h3>
+
+<label>Sector</label><br>
+<select id="sector">
+    <option value="">All</option>
+</select>
+
+<br><br>
+
+<label>Subsector</label><br>
+<select id="subsector">
+    <option value="">All</option>
+</select>
+
+<br><br>
+
+<label>Industry</label><br>
+<select id="industry">
+    <option value="">All</option>
+</select>
+
+<br>
+
+<h3>Transaction Type</h3>
+
+<label>
+<input type="checkbox" id="purchase" checked>
+Purchase
+</label>
+
+
+<label>
+<input type="checkbox" id="sale">
+Sale
+</label>
+
+
+<label>
+<input type="checkbox" id="award">
+Award
+</label>
+
+
+
+<h3>
+Insider Position
+</h3>
+
+
+<label>
+<input type="checkbox" id="ceo">
+CEO
+</label>
+
+
+<label>
+<input type="checkbox" id="cfo">
+CFO
+</label>
+
+
+
+<h3>
+Other Filters
+</h3>
+
+<label>Minimum Market Cap (USD Billion)</label>
+
+<input id="marketcap" type="number" value="5" step="0.1"><br>
+
+<br>
+
+Minimum Transaction Value:
+
+<input 
+id="min_value"
+value="10000">
+
+
+<br><br>
+
+
+Filing Period:
+
+<input 
+id="days"
+value="30">
+
+days
+
+
+
+<br>
+
+
+<button onclick="search()">
+Search
+</button>
+
+
+</div>
+
+
+
+<h2>
+Results
+</h2>
+
+
+<table>
+
+
+<thead>
+
+<tr>
+
+<th>Filing Date</th>
+
+<th>Trade Date</th>
+
+<th>Ticker</th>
+
+<th>Company</th>
+
+<th>Insider</th>
+
+<th>Title</th>
+
+<th>Type</th>
+
+<th>Value</th>
+
+</tr>
+
+</thead>
+
+<tbody id="results">
+
+
+</tbody>
+
+
+</table>
+
+
+
+<script>
+
+let industryData = [];
+
+async function loadIndustries(){
+
+    const res = await fetch(
+        "http://127.0.0.1:8001/industries"
+    );
+
+    industryData = await res.json();
+
+    populateSectors();
+}
+
+
+function populateSectors(){
+
+    let sector = document.getElementById("sector");
+
+    sector.innerHTML =
+        '<option value="">All</option>';
+
+    const sectors =
+        [...new Map(
+
+            industryData.map(x=>[
+                x.sic1,
+                x
+            ])
+
+        ).values()];
+
+    sectors.forEach(x=>{
+
+        sector.innerHTML +=
+            `<option value="${x.sic1}">
+                ${x.sector_name}
+            </option>`;
+
+    });
+
+}
+
+
+function populateSubsectors() {
+
+    let sector =
+        document.getElementById("sector").value;
+
+    let select =
+        document.getElementById("subsector");
+
+    select.innerHTML =
+        '<option value="">All</option>';
+
+    let rows =
+        industryData.filter(x =>
+            sector === "" || x.sic1 == sector
+        );
+
+    rows =
+        [...new Map(rows.map(x => [x.sic2, x])).values()];
+
+    rows.forEach(x => {
+
+        select.innerHTML +=
+            `<option value="${x.sic2}">
+                ${x.subsector_name}
+            </option>`;
+
+    });
+
+    // Clear downstream dropdown
+    document.getElementById("industry").innerHTML =
+        '<option value="">All</option>';
+}
+
+
+function populateIndustries() {
+
+    let sub =
+        document.getElementById("subsector").value;
+
+    let select =
+        document.getElementById("industry");
+
+    select.innerHTML =
+        '<option value="">All</option>';
+
+    industryData
+        .filter(x =>
+            sub === "" || x.sic2 == sub
+        )
+        .forEach(x => {
+
+            select.innerHTML +=
+                `<option value="${x.sic3}">
+                    ${x.industry_name}
+                </option>`;
+
+        });
+
+}
+
+document.getElementById("sector").onchange = function () {
+    populateSubsectors();
+};
+
+document.getElementById("subsector").onchange = function () {
+    populateIndustries();
+};
+
+async function search(){
+
+let filters = {
+
+    min_marketcap:
+        Number(document.getElementById("marketcap").value),
+
+    sector:
+        document.getElementById("sector").value,
+
+    subsector:
+        document.getElementById("subsector").value,
+
+    industry:
+        document.getElementById("industry").value,
+
+    ticker:
+        document.getElementById("ticker").value,
+
+    purchase:
+        document.getElementById("purchase").checked,
+
+    sale:
+        document.getElementById("sale").checked,
+
+    award:
+        document.getElementById("award").checked,
+
+    ceo:
+        document.getElementById("ceo").checked,
+
+    cfo:
+        document.getElementById("cfo").checked,
+
+    min_value:
+        Number(document.getElementById("min_value").value),
+
+    days:
+        Number(document.getElementById("days").value)
+
+};
+
+
+
+console.log(filters);
+
+
+
+let response = await fetch(
+
+"http://127.0.0.1:8001/search",
+
+{
+
+method:"POST",
+
+headers:{
+
+"Content-Type":"application/json"
+
+},
+
+
+body:
+JSON.stringify(filters)
+
+}
+
+
+);
+
+
+
+let data = await response.json();
+
+
+display(data);
+
+
+}
+
+
+
+
+function display(data){
+
+
+let html="";
+
+
+data.forEach(row=>{
+
+
+html += `
+
+<tr>
+
+<td>${row["Filing Date"] ?? ""}</td>
+
+<td>${row["Trade Date"] ?? ""}</td>
+
+<td>${row.Ticker ?? ""}</td>
+
+<td>${row["Company Name"] ?? ""}</td>
+
+<td>${row["Insider Name"] ?? ""}</td>
+
+<td>${row.Title ?? ""}</td>
+
+<td>${row["Trade Type"] ?? ""}</td>
+
+<td>${row.Value ?? ""}</td>
+
+</tr>
+
+`;
+
+
+});
+
+
+document.getElementById(
+"results"
+).innerHTML=html;
+
+
+}
+
+window.onload = loadIndustries;
+
+
+</script>
+
+
+</body>
+
+</html>
